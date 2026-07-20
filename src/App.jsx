@@ -1,6 +1,22 @@
 import { useState } from "react";
 import axios from "axios";
 
+import {
+  FaUser,
+  FaCamera,
+  FaShieldAlt,
+  FaHandsHelping,
+  FaRoute,
+  FaLeaf,
+  FaTruck,
+  FaRecycle,
+  FaGlobe
+} from "react-icons/fa";
+
+import { MdRestaurant } from "react-icons/md";
+
+import { BsFillImageFill } from "react-icons/bs";
+
 
 function App() {
 
