@@ -160,15 +160,18 @@ function App() {
 
     <div style={styles.container}>
 
+<div style={styles.header}>
 
-      <h1 style={styles.title}>
-        🍱 RescueBite AI
-      </h1>
+  <h1 style={styles.title}>
+    <FaLeaf /> RescueBite AI
+  </h1>
 
 
-      <p style={{textAlign:"center"}}>
-        Intelligent Food Rescue Network
-      </p>
+  <p style={styles.subtitle}>
+    Intelligent Food Rescue Network
+  </p>
+
+</div>
 
 
 
@@ -483,6 +486,24 @@ function App() {
 const styles = {
 
 
+  header: {
+
+    textAlign:"center",
+
+    marginBottom:"30px"
+
+  },
+
+
+  subtitle: {
+
+    color:"#4B5563",
+
+    fontSize:"18px"
+
+  },
+
+
   container: {
 
     minHeight:"100vh",
@@ -496,15 +517,14 @@ const styles = {
   },
 
 
-
   title:{
+
 
     color:"#15803D",
 
     textAlign:"center"
 
   },
-
 
 
   card:{
@@ -525,7 +545,6 @@ const styles = {
   },
 
 
-
   input:{
 
 
@@ -540,7 +559,6 @@ const styles = {
     border:"1px solid #ccc"
 
   },
-
 
 
   button:{
@@ -567,7 +585,6 @@ const styles = {
   },
 
 
-
   result:{
 
 
@@ -587,6 +604,9 @@ const styles = {
 
 
 };
+
+
+
 
 
 
