@@ -67,7 +67,7 @@ function App() {
       }
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/donate",
+        "https://rescuebite-ai-agent.onrender.com/donate",
         data,
         {
           headers:{
